@@ -10,8 +10,9 @@ function click(){
         alert("密码错误");
         clearInput("account");
     }else{
-         alert("登陆成功");
+        alert("登陆成功");
     }
+}
 
 function clearInput(id) {
     document.getElementById(id).value = "";
